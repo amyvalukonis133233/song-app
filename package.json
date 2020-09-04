@@ -1,0 +1,31 @@
+{
+  "name": "song-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js",
+    "test": "jest --watchAll --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amyvalukonis133233/song-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amyvalukonis133233/song-app/issues"
+  },
+  "homepage": "https://github.com/amyvalukonis133233/song-app#readme",
+  "devDependencies": {
+    "env-cmd": "^8.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.3",
+    "supertest": "^4.0.2"
+  }
+}
